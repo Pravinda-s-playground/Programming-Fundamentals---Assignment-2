@@ -1,0 +1,10 @@
+Task 1.
+
+Statistically Typed Languages are the programming languages that checking type at the compile
+time, while Dynamically Typed Languages are the programming languages that checking type at the
+run time.
+Strongly Typed Languages are the programming languages that consider the type of data strictly
+while Loosely Typed Languages are the programming languages that don’t consider the type of data
+strictly.
+
+Answer - Java is a statistically typed and strongly typed programming language
