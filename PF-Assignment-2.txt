@@ -1,10 +1,58 @@
 Task 1.
 
-Statistically Typed Languages are the programming languages that checking type at the compile
-time, while Dynamically Typed Languages are the programming languages that checking type at the
-run time.
-Strongly Typed Languages are the programming languages that consider the type of data strictly
-while Loosely Typed Languages are the programming languages that don’t consider the type of data
-strictly.
+Statically Typed Language: Type checking is done at compile-time. Dynamically Typed Language: Type checking is done at runtime. 
+Strongly Typed Language: Strict type checking, variables hold specific types. Loosely Typed Language: Flexible type handling, 
+variables can change types easily. Java is Statically Typed and Strongly Typed.
 
-Answer - Java is a statistically typed and strongly typed programming language
+
+Task2.
+
+Case Sensitive: Differentiates between uppercase and lowercase characters. Case Insensitive: Treats uppercase and lowercase characters as the same. 
+Case Sensitive-Insensitive: Context-specific, treating case sensitivity as needed. Java is Case Sensitive.
+
+
+Task3.
+
+Identity Conversion is a type of type conversion that involves assigning a value to a variable of the
+same type, or passing an argument to a method where the argument's type matches the parameter
+type exactly.
+
+Example
+int number = 42;
+int anotherNubmer = number;
+long myLong = 151316;
+long myNextLong = myLong;
+
+here firstly, a value is assigned to number and that number is assigned to another variable with same type.
+
+
+Task4.
+
+Primitive Widening Conversion: Safe casting from smaller to larger data types. 
+Example:  (byte)→(short)→(int)→(long)
+          (float)→(double)
+
+
+Task 5.
+
+run time constant- the value of the constant is known when the project runs
+example
+final int Const1 = 10*Math.Random();
+compile time constant- the value of the constant is known when the project compiles.
+Example
+final int Const2 =20;
+
+
+Task6.
+
+Implicit conversions happens automatically and explicit conversions are not happening
+automatically without external forcing (casting the target type at the end ).
+conditions to met to happen an implicit narrowing primitive conversion
+1. an assigning context
+2. a compile time constant
+3. within the bit range of target type
+
+Task7.
+
+The but structure if the float is different from long. Even the number of but is lesser, float can store
+larger range of values, but with a less accuracy.
